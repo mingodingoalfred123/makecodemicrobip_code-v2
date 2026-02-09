@@ -1,0 +1,41 @@
+{
+    "name": "makecode.microbip_code v2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "radio-broadcast": "*",
+        "pxt-faces": "github:grandpabond/pxt-faces#v1.1.0",
+        "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33",
+        "microbit-pxt-clicks": "github:bsiever/microbit-pxt-clicks#v0.2.2",
+        "datalogger": "*",
+        "audio-recording": "*",
+        "Soroban": "github:aorczyk/soroban#v1.0.11",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "sonification": "github:davidnsousa/sonification#v1.0.6",
+        "Wait Until Custom Blocks": "github:teacherpinky/wait-until-blocks#v0.1.12",
+        "maqueen": "github:dfrobot/pxt-maqueen#v1.7.16",
+        "servo": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v7.0.57",
+        "tag": "v7.0.57",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/1a9e10ee33883477990f6bc7451dae38318586e3",
+        "target": "8.0.18",
+        "pxt": "11.1.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
